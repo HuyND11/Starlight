@@ -1,0 +1,166 @@
+.container {
+    max-width: 1280px;
+    max-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: #f58a55; */
+}
+
+.grid {
+    background-color: #f58a55;
+    border-top: 1px solid black;
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.right {
+    margin-top: 50%;
+    margin-left: 15px;
+    color: white;
+}
+
+.right p {
+    font-size: 17px;
+    margin-top: 30px;
+}
+
+.right img {
+    position: relative;
+    animation: myAnimation 0.8s ease-in infinite;
+    /* -moz-animation: myAnimation 1s ease-out infinite; */
+    /* -webkit-animation: myAnimation 1s ease-out infinite;
+    -o-animation: myAnimation 1s ease-out infinite; */
+    animation-direction: alternate;
+    margin-bottom: 15px;
+}
+
+@keyframes myAnimation {
+    from {
+        top: 0px;
+    }
+    to {
+        top: 30px;
+    }
+}
+
+.login-form {
+    width: 100%;
+    max-width: 950px;
+    height: 500px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 90px 25px 25px 90px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h1 {
+    color: #495057;
+    font-size: 30px;
+    margin-top: 5%;
+}
+
+.input-box {
+    margin-bottom: 10px;
+}
+
+.input-box input {
+    padding: 7.5px 15px;
+    border-radius: 20px;
+    width: 60%;
+    height: 50px;
+    border: 1px solid #cccccc;
+    outline: none;
+}
+
+.btn-box {
+    text-align: right;
+    margin-right: 20%;
+}
+
+.btn-box button {
+    padding: 7.5px 15px;
+    border-radius: 20px;
+    width: 30%;
+    height: 50px;
+    background-color: #f58a55;
+    color: #ffffff;
+    border: none;
+    outline: none;
+}
+
+.logo {
+    margin-top: 5px;
+    padding-top: 20px;
+    justify-content: center;
+}
+
+.fb {
+    border: 1px solid #1172cc;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+    height: 40px;
+    width: 40px;
+    text-decoration: none;
+}
+
+.gg {
+    border: 1px solid #f33737;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+    height: 40px;
+    width: 40px;
+    text-decoration: none;
+}
+
+
+/* a.non-textdecoration {
+    color: red;
+    text-decoration: none;
+} */
+
+.form-group {
+    text-align: left;
+    margin-left: 20%;
+}
+
+.form-group a {
+    text-decoration: none;
+    color: #6b739c;
+}
+
+
+/*  */
+
+.input-box .show-btn {
+    position: absolute;
+    right: 400px;
+    top: 52%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #000000;
+    cursor: pointer;
+    display: none;
+}
+
+.input-box input:valid~span {
+    display: block;
+}
+
+.input-box span i .hide-btn::before {
+    content: "\f070";
+}
+
+.invalid {
+    font-size: 12px;
+    color: red;
+    background-color: transparent;
+    padding: 5px 0;
+}

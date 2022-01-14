@@ -1,0 +1,146 @@
+#time {
+    font-size: 25px;
+}
+
+.header_form {
+    background-color: #22272b;
+    border-top: 1px solid black;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+.first {
+    margin-top: 50px;
+}
+
+.form_xacnhan {
+    margin-top: 1%;
+    color: white;
+    margin-left: 5%;
+}
+
+.form_xacnhan p {
+    font-size: 14px;
+    color: #dcdcdc;
+    padding-bottom: 10px;
+}
+
+.form_xacnhan button {
+    height: 30px;
+    width: 150px;
+    margin-bottom: 10px;
+    /* border-radius: 15px solid white; */
+}
+
+.title {
+    margin-bottom: 1.3%;
+    color: white;
+}
+
+.title img {
+    width: 50px;
+    margin-right: 15px;
+}
+
+
+/* .choose {
+    padding: 10px;
+} */
+
+.br {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.bt button {
+    width: 500px;
+    height: 40px;
+    margin-bottom: 40px;
+    background-color: #f37737;
+    color: white;
+}
+
+#left {
+    margin-right: 30px;
+}
+
+
+/* -------------------------------------------------------------- */
+
+.table-wrapper {
+    margin: 10px 70px 70px;
+    box-shadow: 0px 35px 50px rgba(0, 0, 0, 0.2);
+}
+
+.fl-table {
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: normal;
+    border: none;
+    border-collapse: collapse;
+    width: 90%;
+    max-width: 100%;
+    white-space: nowrap;
+    background-color: white;
+    margin-bottom: 70px;
+}
+
+.fl-table td,
+.fl-table th {
+    text-align: center;
+    padding: 8px;
+}
+
+.fl-table td {
+    border-right: 1px solid #f8f8f8;
+    font-size: 12px;
+    color: black;
+}
+
+.fl-table thead th {
+    color: #ffffff;
+    background: #01877e;
+}
+
+.fl-table thead th:nth-child(odd) {
+    color: #ffffff;
+    background: #f37737;
+}
+
+.fl-table tr:nth-child(even) {
+    background: #f8f8f8;
+}
+
+.fl-table th:hover {
+    background-color: rgb(112, 112, 98);
+}
+
+
+/* buton-three---------------------------------------------- */
+
+.fl-table tr:hover {
+    background-color: rgb(228, 198, 133);
+}
+
+.fl-table td button {
+    background-color: #f3730a;
+    border-radius: 10px;
+    height: 25px;
+}
+
+
+/* --------------------xem chi tiet */
+
+#xemchitietphim {
+    display: none;
+    margin-left: 10%;
+}
+
+.tbl-2 {
+    margin-left: 10%;
+}
+
+.chitietphim img {
+    height: 300px;
+}

@@ -1,0 +1,34 @@
+[{
+        "time1": ["A4", "G5", "B3", "C10", "D2"],
+        "time2": ["A3", "D3", "D4", "A4"],
+        "time3": ["B5", "B4", "H7"],
+        "cinema": "starligh buôn ma thuột",
+        "address": "TRUNG TÂM GIẢI TRÍ STARLIGHT BUÔN MA THUỘT Tầng 6 Tòa Nhà Vincom - 78 Lý Thường Kiệt - TP.BMT",
+        "id": "1",
+        "film1": "1",
+        "film2": "3",
+        "film3": "4"
+    },
+    {
+        "time1": ["C4", "D5", "A3", "A10"],
+        "time2": ["A1", "A2", "A3", "A4"],
+        "time3": ["C1", "C2", "C3"],
+        "cinema": "starligh đà nẵng",
+        "address": "TRUNG TÂM GIẢI TRÍ STARLIGHT ĐÀ NẴNG Tầng 4 Tòa nhà Nguyễn Kim, 46 Điện Biên Phủ, TP. Đà Nẵng",
+        "id": "2",
+        "film1": "2",
+        "film2": "10",
+        "film3": "11"
+    },
+    {
+        "time1": ["H4", "B10"],
+        "time2": ["F1", "F2", "B5", "B2"],
+        "time3": ["H3", "H2", "H1"],
+        "cinema": "starligh quy nhơn",
+        "address": "TRUNG TÂM GIẢI TRÍ STARLIGHT QUY NHƠN. Tầng 8 An Phú Thịnh Plaza, 52A Tăng Bạt Hổ, TP. Quy Nhơn",
+        "id": "3",
+        "film1": "4",
+        "film2": "2",
+        "film3": "8"
+    }
+]

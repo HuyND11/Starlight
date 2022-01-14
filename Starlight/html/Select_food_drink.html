@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="../img/bar_logo.png" type="image/x-icon" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chọn com bo | Starlight</title>
+    <link rel="stylesheet" href="../css/header-footer.css" />
+    <link rel="stylesheet" href="../css/Select-seat.css" />
+    <link rel="stylesheet" href="../css/Select_food_drink.css" />
+    <!-- font aweasome -->
+    <script src="https://kit.fontawesome.com/522874b971.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header_top">
+                <div class="header_top_left">
+                    <ul class="header_top_left_nav">
+                        <li class="header_top_left_nav_item">
+                            <a href="#"><i class="fa fa-facebook icon" aria-hidden="true"></i
+                ></a>
+                        </li>
+                        <li class="header_top_left_nav_item">
+                            <a href="#"><i class="fa fa-instagram icon" aria-hidden="true "></i
+                ></a>
+                        </li>
+                        <li class="header_top_left_nav_item">
+                            <a href="#"><i class="fa fa-google-plus icon" aria-hidden="true"></i
+                ></a>
+                        </li>
+                        <li class="header_top_left_nav_item">
+                            <a href="#"><i class="fa fa-skype icon" aria-hidden="true"></i
+                ></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="header_top_right">
+                    <ul class="header_top_right_nav">
+                        <li class="header_top_right_nav_item">
+                            <a href="#" class="btn">FQS</a>
+                        </li>
+
+                        <!--  -->
+                        <li class="header_top_right_nav_item">
+                            <a href="./Log_in.html" class="btn btn_account" id="button_login">Đăng Nhập</a
+                >
+              </li>
+              <li class="header_top_right_nav_item">
+                <a
+                  href="./Sign_In.html"
+                  id="button_signup"
+                  class="btn btn_account"
+                  >Đăng Kí</a
+                >
+              </li>
+              <!--  -->
+              <li class="header_top_right_nav_item">
+                <a href="#" class="btn btn_account" id="display_userName"></a>
+                        </li>
+                        <li class="header_top_right_nav_item">
+                            <a href="#" class="btn btn_account" id="button_logout" onclick="logout()">Log Out</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="header_menu">
+          <div class="header_logo">
+            <a href="" class="header_logo_item">
+              <img src="../img/header_logo.png" alt="" class="logo" />
+            </a>
+                </div>
+                <ul class="header_nav">
+                    <li class="header_nav_item">
+                        <div class="a-line"></div>
+                        <a href="" class="header_nav_link">Trang Chủ</a>
+                        <div class="a-line"></div>
+                    </li>
+                    <li class="header_nav_item">
+                        <div class="a-line"></div>
+                        <a href="" class="header_nav_link">Lịch Chiếu</a>
+                        <div class="a-line"></div>
+                    </li>
+                    <li class="header_nav_item">
+                        <div class="a-line"></div>
+                        <a href="" class="header_nav_link">Phim</a>
+                        <div class="a-line"></div>
+                    </li>
+                    <li class="header_nav_item">
+                        <div class="a-line"></div>
+                        <a href="" class="header_nav_link">Khuyến Mãi</a>
+                        <div class="a-line"></div>
+                    </li>
+                    <li class="header_nav_item">
+                        <div class="a-line"></div>
+                        <a href="" class="header_nav_link">Điện Ảnh</a>
+                        <div class="a-line"></div>
+                    </li>
+                    <li class="header_nav_item">
+                        <div class="a-line"></div>
+                        <a href="" class="header_nav_link">Liên Hệ</a>
+                        <div class="a-line"></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container-1">
+        <div class="background">
+            <div class="display-column">
+                <h1>bước 2: chọn combo</h1>
+            </div>
+            <hr />
+            <div class="display-column">
+                <div class="combo_content">
+                    <div class="combo">
+                        <img src="../img/combo-doi.jpg" alt="" />
+                        <div class="combo_title">1 bắp 220z + 1 nước 22oz</div>
+                        <p class="combo_description">
+                            1 co ca 22oz + 1 bắp 22oz bơ 70.00đ
+                        </p>
+                        <div class="combo_quantity combo_content">
+                            <div class="subtraction quantity_size" onclick="subtraction()">
+                                -
+                            </div>
+                            <div class="result_quantity quantity_size">0</div>
+                            <div class="addition quantity_size" onclick="addition()">+</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-1">
+        <div class="footer text-w">
+            <div class="background">
+                <div class="footer-main">
+                    <div id="footer-contact">
+                        <img src="../img/footer_logo.png" alt="" />
+                        <div id="contact-content">
+                            <span>Support:
+                  <a
+                    href="mailto:hieu.tran23@student.passerellesnumeriques.org"
+                    class="text-w"
+                    >Support@Startlight.Vn</a
+                  ></span
+                ><br />
+                <span
+                  >Hotline:
+                  <a href="tel:0917459572" class="text-w">1900 1722</a></span
+                >
+              </div>
+              <div id="icon-socal-media" class="text-w">
+                <ul>
+                  <li>
+                    <a href="#" class="text-w"
+                      ><i class="fab fa-facebook-f"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-w"
+                      ><i class="fab fa-twitter"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-w"
+                      ><i class="fab fa-invision"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-w"
+                      ><i class="fab fa-google-plus-g"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-w"
+                      ><i class="fab fa-instagram"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div id="footer-role">
+              <h6>chính sách</h6>
+              <ul>
+                <li>
+                  <i class="fas fa-angle-double-right"></i
+                  ><a href="#" class="text-w"> Điều khoản chung</a>
+                </li>
+                <li>
+                  <i class="fas fa-angle-double-right"></i>
+                  <a href="#" class="text-w">Chính sách thanh toán</a>
+                </li>
+                <li>
+                  <i class="fas fa-angle-double-right"></i>
+                  <a href="#" class="text-w">chính sách bảo mật</a>
+                </li>
+                <li>
+                  <i class="fas fa-angle-double-right"></i>
+                  <a href="#" class="text-w">chính sách thanh toán</a>
+                </li>
+                <!-- <li></li>
+                        <li></li> -->
+              </ul>
+            </div>
+            <div id="footer-download">
+              <h6>Download app</h6>
+              <ul>
+                <li>
+                  Tải ngay ứng dụng đặt vé xem phim cho dế yêu của bạn ( ͡• ͜ʖ ͡• )
+                </li>
+                <li>
+                  <div id="download">
+                    <a href="#"> <img src="../img/app-1.jpg" alt="" /></a>
+                    <a href="#"> <img src="../img/app-2.jpg" alt="" /></a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <!-- <img src="./img/background-footer.jpg" alt="" /> -->
+          </div>
+          <div id="deginer">
+            <hr />
+            <p>
+              2019 © StarLight. All Rights Reserved - Design By
+              <a href="#" class="text-w">KingPro</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div id="footer-menu">
+        <ul>
+          <li>
+            <a href="#" class="text-w"
+              ><i class="fas fa-home"></i> <span>trang chủ</span></a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-w"><i class="fas fa-ticket-alt"></i><span>đặt vé</span></a
+            >
+          </li>
+          <li>
+            <a href="#" class="text-w"
+              ><i class="fas fa-film"></i><span>lịch chiếu</span></a
+            >
+          </li>
+          <li>
+            <a href="#" class="text-w"
+              ><i class="fas fa-gift"></i><span>ưu đãi</span></a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="selected">
+      <div class="note">
+        <h3>combo đang chọn</h3>
+        <p>1 bắp 220z + 1 nước 22oz</p>
+        <div class="display_f"></div>
+      </div>
+      <div class="seat_number">
+        <div class="total_ticket">
+          <h3>Thành tiền</h3>
+          <p>0đ</p>
+        </div>
+      </div>
+      <div class="next_button">
+        <p class="button-77" onclick="next_step()">Tiếp theo</p>
+      </div>
+    </div>
+
+    <div class="go-to-top">
+      <i class="fas fa-angle-double-up"></i>
+    </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <!-- change when log in  -->
+    <script src="../js/header_log_in.js"></script>
+    <script src="../js/go-to-top.js"></script>
+    <script src="../js/Select_food_drink.js"></script>
+  </body>
+</html>

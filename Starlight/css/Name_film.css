@@ -1,0 +1,186 @@
+:root {
+    --orange: rgb(243, 119, 55);
+}
+
+.hot-film-img img {
+    width: 100%;
+    border: 3px solid var(--orange);
+}
+
+.hot-film-content h3,
+.hot-film-content .category {
+    color: var(--orange);
+    margin-bottom: 10px;
+}
+
+.hot-film-information {
+    color: #000;
+    margin: 10px 0px;
+}
+
+.hot-film-information b {
+    text-transform: capitalize;
+}
+
+.hot-film-content h3,
+.type-age {
+    text-transform: uppercase;
+}
+
+.hot-film-content h3 {
+    margin-top: 20px;
+}
+
+.type-age .type,
+.type-age .age {
+    padding: 5px 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.type-age .age {
+    background-color: rgb(233, 21, 21);
+    color: white;
+}
+
+.hot-film-container hr {
+    border: 1px solid white;
+}
+
+.hot-film-element {
+    padding: 20px 0px;
+}
+
+.hot-film-element hr {
+    margin-top: 20px;
+}
+
+.hot-film-information span {
+    line-height: 150%;
+}
+
+.hot-film-information .description {
+    padding: 40px 0px;
+}
+
+
+/* showtimes */
+
+.showtimes-content {
+    margin-bottom: 20px;
+}
+
+.showtimes h1,
+.showtimes .name {
+    color: var(--orange);
+}
+
+.box_cinema {
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid var(--orange);
+    margin: 20px 0px;
+    /* padding: 20px 10px; */
+}
+
+.box_cinema .fa-angle-double-up,
+.box_cinema .fa-angle-double-down {
+    background-color: var(--orange);
+    padding: 40px;
+}
+
+.cinema {
+    margin: auto 40px;
+    cursor: context-menu;
+}
+
+.hidden {
+    display: none;
+}
+
+.cinema .address {
+    display: none;
+}
+
+.cinema .name {
+    font-size: 17px;
+    text-transform: capitalize;
+}
+
+.showtimes h1 {
+    text-decoration: underline solid var(--orange);
+    text-transform: uppercase;
+}
+
+.date span {
+    background-color: var(--orange);
+    padding: 15px;
+}
+
+.date {
+    margin-top: 15px;
+}
+
+.display_time {
+    display: flex;
+    justify-content: space-between;
+}
+
+hr.style3 {
+    margin-top: 20px;
+    border-top: 1px dashed #8c8b8b;
+}
+
+
+/* CSS */
+
+.button-77 {
+    align-items: center;
+    background-clip: padding-box;
+    background-color: #fa6400;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    /* justify-content: center; */
+    line-height: 1.25;
+    margin: 0;
+    min-height: 3rem;
+    /* padding: calc(0.875rem - 1px) calc(1.5rem - 1px); */
+    padding: 5px 10px;
+    /* position: relative; */
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: auto;
+}
+
+@media screen and (min-width: 600px) {
+    .hot-film-element .display-hot-film {
+        display: flex;
+    }
+    .hot-film-img {
+        margin-right: 40px;
+    }
+    .hot-film-content h5 {
+        margin-top: 00px;
+    }
+    .hot-film-img img {
+        width: 300px;
+    }
+    .button-77 {
+        padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
+    }
+    .cinema .address {
+        display: block;
+    }
+}

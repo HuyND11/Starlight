@@ -1,0 +1,91 @@
+.container {
+    max-width: 1280px;
+    max-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: #f58a55; */
+}
+
+.grid {
+    background-color: #f58a55;
+    border-top: 1px solid black;
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.right {
+    margin-top: 20%;
+    margin-left: 15px;
+    color: white;
+}
+
+.right p {
+    font-size: 17px;
+    margin-top: 30px;
+}
+
+.right img {
+    position: relative;
+    animation: myAnimation 0.8s ease-in infinite;
+    /* -moz-animation: myAnimation 1s ease-out infinite; */
+    /* -webkit-animation: myAnimation 1s ease-out infinite;
+    -o-animation: myAnimation 1s ease-out infinite; */
+    animation-direction: alternate;
+    margin-bottom: 15px;
+}
+
+@keyframes myAnimation {
+    from {
+        top: 0px;
+    }
+    to {
+        top: 30px;
+    }
+}
+
+.login-form {
+    width: 100%;
+    max-width: 950px;
+    height: 350px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 90px 25px 25px 90px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h1 {
+    color: #495057;
+    font-size: 30px;
+    margin-top: 5%;
+}
+
+.input-box {
+    margin-bottom: 10px;
+}
+
+.input-box input {
+    padding: 7.5px 15px;
+    border-radius: 20px;
+    width: 60%;
+    height: 50px;
+    border: 1px solid #cccccc;
+    outline: none;
+}
+
+.btn-box {
+    text-align: right;
+    margin-right: 20%;
+}
+
+.btn-box button {
+    padding: 7.5px 15px;
+    border-radius: 20px;
+    width: 30%;
+    height: 50px;
+    background-color: #f58a55;
+    color: #ffffff;
+    border: none;
+    outline: none;
+}

@@ -1,0 +1,56 @@
+[{
+        "id_user": "10",
+        "start": "8h00",
+        "id_film": "5",
+        "cinema": "cinema 1",
+        "seat": "A1",
+        "date": "15/09/2022",
+        "total": "50.000",
+        "quantity": "1",
+        "id": "1"
+    },
+    {
+        "id_user": "6",
+        "start": "11h00",
+        "id_film": "7",
+        "cinema": "cinema 2",
+        "seat": "A2",
+        "date": "11/01/2022",
+        "total": "50.000",
+        "quantity": "1",
+        "id": "2"
+    },
+    {
+        "id_user": "2",
+        "start": "14h00",
+        "id_film": "10",
+        "cinema": "cinema 3",
+        "seat": "A3",
+        "date": "10/04/2022",
+        "total": "50.000",
+        "quantity": "1",
+        "id": "3"
+    },
+    {
+        "id_user": "5",
+        "start": "17h00",
+        "id_film": "2",
+        "cinema": "cinema 4",
+        "seat": "A4",
+        "date": "12/08/2022",
+        "total": "50.000",
+        "quantity": "1",
+        "id": "4"
+    },
+    {
+        "id_user": "8",
+        "start": "20h00",
+        "id_film": "3",
+        "cinema": "cinema 5",
+        "seat": "A5",
+        "date": "10/11/2022",
+        "total": "50.000",
+        "quantity": "1",
+        "id": "5"
+    }
+]

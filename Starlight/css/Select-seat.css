@@ -1,0 +1,160 @@
+:root {
+    --orange: #fa6400;
+}
+
+.display-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+hr {
+    margin: 20px 0px;
+}
+
+.step_1 {
+    border-bottom: 1px solid black;
+}
+
+.seat {
+    margin-top: 20px;
+}
+
+.selected {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 170px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.display_f {
+    display: flex;
+}
+
+.seat_note {
+    width: 40px;
+    height: 40px;
+    margin: 0px 10px;
+}
+
+.seat_color {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+.seat_color img,
+.seat_note img {
+    width: 100%;
+}
+
+.seat_color p {
+    position: absolute;
+    top: 20px;
+    left: 18px;
+    color: rgb(12, 11, 11);
+}
+
+@media screen and (max-width: 700px) {
+    .seat_color,
+    .seat_note {
+        width: 40px;
+        height: 40px;
+        margin: 1px;
+    }
+    .seat_color p {
+        top: 15px;
+        left: 13px;
+        font-size: 10px;
+    }
+}
+
+.hidden {
+    display: none;
+}
+
+@media screen and (max-width: 375px) {
+    .seat {
+        width: 250px;
+        overflow-x: scroll;
+    }
+    .bacground {
+        padding: 0px;
+    }
+    .seat_color p {
+        display: none;
+    }
+}
+
+.button-77 {
+    align-items: center;
+    background-clip: padding-box;
+    background-color: #fa6400;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    /* justify-content: center; */
+    line-height: 1.25;
+    margin: 0;
+    min-height: 3rem;
+    padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
+    /* position: relative; */
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: auto;
+}
+
+
+/* CSS select combo */
+
+.combo_content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.combo {
+    width: 300px;
+    height: 500px;
+}
+
+.combo img {
+    width: 100%;
+}
+
+.quantity_size {
+    background-color: var(--orange);
+    padding: 15px 25px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+.result_quantity {
+    background-color: white;
+    border: 2px solid var(--orange);
+}
+
+.combo_title {
+    font-weight: bold;
+}
+
+.addition:active,
+.subtraction:active {
+    background-color: greenyellow;
+}

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/522874b971.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../css/quanlysoluongghe.css" />
+
+    <title>Quản lý giờ chiếu phim</title>
+</head>
+
+<body>
+    <div class="sidenav menu">
+        <div class="row">
+            <div class="row-2">
+                <div class="col">
+                    <a href="">
+                        <i class="fab fa-cloudscale"> </i>
+                        <p class="edit-menu">ADMIN</p>
+                    </a>
+                </div>
+                <hr />
+            </div>
+            <div id="menu-vertical">
+                <div>
+                    <a href="admin.html">
+                        <i class="fas fa-hotel"> </i>
+                        <p class="edit-menu">TRANG CHỦ</p>
+                    </a>
+                </div>
+                <br />
+                <div class="menusmall">
+                    <b><p class="edit-menu">QUẢN LÝ</p></b>
+                </div>
+                <div>
+                    <a href="quanlykhachhang.html">
+                        <i class="fa fa-tachometer-alt"> Quản lý khách hàng</i>
+                    </a>
+                    <br />
+                    <a href="quanlydathang.html">
+                        <i class="fa fa-tachometer-alt"> Quản lý đặt hàng</i>
+                    </a>
+                    <br />
+                    <a href="quanlyphim.html">
+                        <i class="fa fa-tachometer-alt"> Quản lý phim</i>
+                    </a>
+                    <br />
+                    <a href="quanlysoluongghe.html">
+                        <i class="fa fa-tachometer-alt"> Số lượng ghế đã bán</i>
+                    </a>
+                    <br />
+                    <a href="quanlygiochieu.html">
+                        <i class="fa fa-tachometer-alt"> Quản lý giờ chiếu</i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <hr />
+    </div>
+    <!-- QUẢN LÝ Người dùng bảng 2------------------------------------------------ -->
+    <div class="main">
+        <div class="manage-bill">
+            <p><b>Quản lý số lượng ghế</b></p>
+            <p id="date"></p>
+        </div>
+        <br />
+        <div class="manage-bill">
+            <p><b>rạp chiếu</b></p>
+            <select name="" id="cinema_name">
+          <option value="1">startlight buôn ma thuột</option>
+          <option value="2">startlight đà nẵng</option>
+          <option value="3">startlight quy nhơn</option>
+        </select>
+        </div>
+        <br />
+
+        <center>
+            <table class="fl-tbl">
+                <thead>
+                    <tr>
+                        <th>SLOT</th>
+                        <th>FILM</th>
+                        <th>EDIT</th>
+                    </tr>
+                </thead>
+                <tbody class="slot"></tbody>
+
+                <tbody></tbody>
+            </table>
+
+            <br />
+            <button id="test">Reset</button>
+        </center>
+        <div class="select-type">
+            <p>Chọn thể loại phim</p>
+            <select name="selectCategory" onchange="show_film()" id="selectCategory">
+          <option value="action">Hành Động</option>
+          <option value="comedy">Hài</option>
+          <option value="romantic">Lãng Mạn</option>
+          <option value="cartoon">Hoạt Hình</option>
+        </select>
+        </div>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Tên phim</th>
+                    <th>Img</th>
+                    <th>Thời lượng phim</th>
+                    <th>Thể loại phim</th>
+                    <th>Đạo diễn</th>
+                    <th>Diễn viên</th>
+                </tr>
+            </thead>
+            <tbody id="product"></tbody>
+        </table>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="../js/quanlygiochieu.js"></script>
+</body>
+
+</html>

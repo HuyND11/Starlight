@@ -1,0 +1,64 @@
+body {
+    background: rgb(245, 240, 225);
+    /* background-image: linear-gradient(to right, rgb(226, 186, 55), rgb(166, 196, 231)); */
+    font-family: 'Open Sans', sans-serif;
+}
+
+.LOGO img {
+    padding-top: 10px;
+    max-width: 100px;
+    max-height: 80px;
+}
+
+.hearder {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info {
+    padding-top: 30px;
+}
+
+#icon-gmail {
+    padding-left: 50px;
+}
+
+.ATM {
+    max-width: 50px;
+    max-height: 20px;
+}
+
+.the-ATM {
+    max-width: 100px;
+    max-height: 80px;
+    border: 1px black solid;
+}
+
+
+/* .icon-ATM img {
+    max-width: 100px;
+    max-height: 80px;
+    border: 1px black solid;
+} */
+
+.the-ATM1 img {
+    width: 90px;
+    max-height: 63px;
+    border: 1px black solid;
+}
+
+.item-text h5 {
+    margin-top: -15px;
+}
+
+.title_oder {
+    color: rgb(17, 167, 42);
+}
+
+.total {
+    color: rgb(219, 12, 54);
+}
+
+.color-total {
+    color: rgb(13, 158, 202);
+}

@@ -1,0 +1,74 @@
+/* tin điện ảnh css */
+
+.news-element {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    margin-bottom: 35px;
+    background-color: white;
+}
+
+.news-film-information {
+    margin: 0px 20px;
+}
+
+.news-film-img {
+    width: 100%;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.news-film-title,
+.news-film-content {
+    padding: 20px 0px;
+}
+
+.news-film-title {
+    font-size: 20px;
+}
+
+.admin-time {
+    display: flex;
+    justify-content: space-around;
+}
+
+.admin-time i {
+    color: var(--orange);
+}
+
+
+/* hover area  */
+
+.news-film-img:hover {
+    transform: scale(1.5);
+}
+
+.news-film-img {
+    display: block;
+    width: 100%;
+    transition: all 1s ease;
+    height: 250px;
+}
+
+.news-film-img:hover {
+    transform: scale(1.25);
+}
+
+.news-element .news-display-img {
+    display: block;
+    overflow: hidden;
+}
+
+@media screen and (min-width: 700px) {
+    .news-element {
+        width: 40%;
+        margin: 20px 40px 20px 0px;
+        display: inline-block;
+        border: 1px white solid;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .news-element {
+        width: 30%;
+        margin: 15px 30px 15px 0px;
+    }
+}

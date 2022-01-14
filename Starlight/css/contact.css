@@ -1,0 +1,99 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"); */
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+h6 {
+    font-size: 15px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(78, 63, 63);
+}
+
+.information,
+.contact {
+    padding: 15px 50px;
+}
+
+.information,
+.contact {
+    background-color: #e3f6f5;
+}
+
+.contact h1,
+.information h1 {
+    text-decoration: underline black solid;
+    text-transform: uppercase;
+    margin: 10px 0px;
+}
+
+.information span {
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.address {
+    text-transform: uppercase;
+}
+
+textarea,
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0px;
+    font-size: 15px;
+}
+
+
+/* CSS */
+
+#btn {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    background-color: initial;
+    background-image: linear-gradient(-180deg, #ff7e31, #e62c03);
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+    color: #ffffff;
+    cursor: pointer;
+    height: 40px;
+    line-height: 40px;
+    outline: 0;
+    overflow: hidden;
+    padding: 0 20px;
+    pointer-events: auto;
+    position: relative;
+    text-align: center;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: top;
+    white-space: nowrap;
+    width: 100%;
+    border: 0;
+    transition: box-shadow 0.2s;
+    width: 70px;
+}
+
+.button-42:hover {
+    box-shadow: rgba(253, 76, 0, 0.5) 0 3px 8px;
+}
+
+@media screen and (min-width: 800px) {
+    .display {
+        display: flex;
+        justify-content: space-between;
+        padding: 15px 0px;
+    }
+    .information {
+        width: 40%;
+    }
+}

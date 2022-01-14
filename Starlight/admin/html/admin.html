@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/522874b971.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/adminVu.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="sidenav menu">
+        <div class="row">
+            <div class="row-2">
+                <div class="col">
+                    <a href="">
+                        <i class="fab fa-cloudscale"> ADMIN</i>
+                    </a>
+                </div>
+                <hr />
+            </div>
+            <div id="menu-vertical">
+                <div>
+                    <a href="admin.html">
+                        <i class="fas fa-hotel"> TRANG CHỦ</i>
+                    </a>
+                </div>
+                <br />
+                <div class="menusmall"><b> QUẢN LÝ</b></div>
+                <div>
+                    <a href="quanlykhachhang.html">
+                        <i class="fa fa-tachometer-alt"> Quản lý khách hàng</i>
+                    </a>
+                    <br />
+                    <a href="quanlydathang.html">
+                        <i class="fa fa-tachometer-alt"> Quản lý đặt hàng</i>
+                    </a>
+                    <br />
+                    <a href="quanlyphim.html">
+                        <i class="fa fa-tachometer-alt"> Quản lý phim</i>
+                    </a>
+                    <br />
+                    <a href="quanlysoluongghe.html">
+                        <i class="fa fa-tachometer-alt"> Số lượng ghế đã bán</i>
+                    </a>
+                    <br />
+                    <a href="quanlygiochieu.html">
+                        <i class="fa fa-tachometer-alt"> Quản lý giờ chiếu</i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <hr />
+    </div>
+    <!-- ----------------------------------------------------- -->
+    <div class="content-statistical main">
+        <div class="small-content">
+            <p>SỐ LƯỢNG KHÁCH HÀNG</p>
+            <div class="quantily">
+                <p id="qty1">5</p>
+                <i class="fas fa-calendar-day" id="icon"></i>
+            </div>
+        </div>
+        <div class="small-content">
+            <p>SỐ LƯỢNG PHIM HIỆN CÓ</p>
+            <div class="quantily">
+                <p id="qty2"></p>
+                <i class="fas fa-calendar-day" id="icon"></i>
+            </div>
+        </div>
+        <div class="small-content">
+            <p>SỐ LƯỢNG ĐƠN HÀNG</p>
+            <div class="quantily">
+                <p id="qty3"></p>
+                <i class="fas fa-calendar-day" id="icon"></i>
+            </div>
+        </div>
+        <div class="small-content">
+            <p>SỐ LƯỢNG BỔ SUNG THÊM</p>
+            <div class="quantily">
+                <p id="qty4">00</p>
+                <i class="fas fa-calendar-day" id="icon"></i>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="../js/admin.js"></script>
+</body>
+
+</html>

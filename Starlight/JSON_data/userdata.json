@@ -1,0 +1,87 @@
+[{
+        "name": "Trần Văn Hiếu",
+        "address": "101B - Lê Hữu Trác",
+        "Id_card": "213312332432",
+        "date_of_birth": "01/01/2001",
+        "phone_number": "0913213432",
+        "email": "tranvanhieu@gmail.com",
+        "account": "tranvanhieu",
+        "password": "tranvanhieu11",
+        "gender": "nam",
+        "id": "0"
+    },
+    {
+        "name": "Hồ Thị Nguyệt",
+        "address": "99 - Tô Hiến Thành",
+        "Id_card": "197332875",
+        "date_of_birth": "02/05/2002",
+        "phone_number": "0351313971",
+        "email": "thinguyet123@gmail.com",
+        "account": "hothinguyet",
+        "password": "nguyet33",
+        "gender": "nu",
+        "id": "1"
+    },
+    {
+        "name": "Hồ Thị Vư",
+        "address": "90 - Tô Hiến Thành",
+        "Id_card": "195312875",
+        "date_of-birth": "10/01/2001",
+        "phone_number": "0951313971",
+        "email": "hothivu@gmail.com",
+        "account": "hothivu",
+        "password": "password22",
+        "gender": "nu",
+        "id": "2"
+    },
+    {
+        "name": "Nguyễn Minh Ngọc",
+        "address": "99 - Nguyễn Văn Linh",
+        "Id_card": "187339875",
+        "date_of_birth": "12/09/2001",
+        "phone_number": "0335313971",
+        "email": "minhngoc123@gmail.com",
+        "account": "nguyenminhngoc",
+        "password": "password33",
+        "gender": "nu",
+        "id": "3"
+    },
+    {
+        "name": "Nguyễn văn An",
+        "address": "112 - Điện Biên Phủ",
+        "Id_card": "194932875",
+        "date_of_birth": "01/07/2002",
+        "phone_number": "0835313971",
+        "email": "nguyenvana@gmail.com",
+        "account": "nguyenvana",
+        "password": "password44",
+
+        "gender": "nam",
+        "id": "4"
+    },
+    {
+        "name": "Hoàng Thị Mai",
+        "address": "31 - Âu Cơ",
+        "Id_card": "177332876",
+        "date_of_birth": "22/10/2001",
+        "phone_number": "0931313971",
+        "email": "hoangthimai@gmail.com",
+        "account": "hoangthimai",
+        "password": "password55",
+
+        "gender": "nu",
+        "id": "5"
+    },
+    {
+        "name": "Trần Ngọc Quân",
+        "address": "10 - Lạc Long Quân",
+        "Id_card": "137352871",
+        "date_of_birth": "15/05/2001",
+        "phone_number": "0351313813",
+        "email": "tranngocquan@gmail.com",
+        "account": "tranngocquan",
+        "password": "password66",
+        "gender": "nam",
+        "id": "6"
+    }
+]
